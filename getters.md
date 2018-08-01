@@ -1,7 +1,3 @@
----
-description: Why / how and when to use them
----
-
 # Getters
 
 Notice how in the "transferring data" section, there was no mention of "exposing data" \(as in, make use of getters\). 

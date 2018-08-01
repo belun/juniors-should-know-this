@@ -1,7 +1,3 @@
----
-description: What is this all about?
----
-
 # Goal
 
 As a developer, you write text. Sure, the text represents computer instructions and the computer will take this code and do things according to it. 

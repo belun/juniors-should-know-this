@@ -1,7 +1,3 @@
----
-description: How to transfer data
----
-
 # Moving state around
 
 **Given** _rich classes_, that are "owners" of data, 

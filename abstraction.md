@@ -1,7 +1,3 @@
----
-description: Concept definition
----
-
 # Abstraction\(s\)
 
 #### How can the code help the maintainers ?

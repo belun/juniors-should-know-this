@@ -1,7 +1,3 @@
----
-description: Concept definition
----
-
 # Encapsulation
 
 #### What is encapsulation?
