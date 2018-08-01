@@ -1,0 +1,23 @@
+# Table of contents
+
+* [Goal](README.md)
+* [Goal](goal-1.md)
+* [Abstraction\(s\)](abstractions.md)
+* [Encapsulation](encapsulation-definition.md)
+* [Counter example](goal.md)
+* [Proper encapsulation](good-encapsulation.md)
+* [Cohension](cohension.md)
+* [Moving state around](expert-principle.md)
+* [Getters](getters.md)
+* [Layers](layers.md)
+* [Good examples](good-examples.md)
+* [Bad examples](bad-examples.md)
+* [What about functional?](what-about-functional.md)
+* [What about declarative?](what-about-declarative.md)
+* [Composing](prefer-composition-over-inheritance.md)
+* [Wrappers](wrappers.md)
+* [Clean code](clean-code.md)
+* [Do not lie](do-not-lie.md)
+* [Do not repeat yourself](do-not-repeat-yourself.md)
+* [Keep it simple](keep-it-simple.md)
+

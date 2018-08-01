@@ -1,0 +1,4 @@
+# Goal
+
+Explain encapsulation
+
