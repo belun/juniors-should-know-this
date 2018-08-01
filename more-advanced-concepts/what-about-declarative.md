@@ -2,7 +2,7 @@
 description: how declarative programming interacts with encapsulation
 ---
 
-# What about declarative?
+# \[TODO\]What about declarative?
 
 
 
