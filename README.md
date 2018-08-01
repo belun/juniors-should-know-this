@@ -1,4 +1,3 @@
-# Goal
+This mini-series is presenting concepts that make working with source code easier.
 
-Explain encapsulation
-
+[Juniors should know this - @GitBook](https://devtraining.gitbook.io/juniors-should-know-this)
