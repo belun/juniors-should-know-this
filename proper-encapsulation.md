@@ -74,7 +74,7 @@ As you have probably guessed it, the bad things from section with the counter ex
   * we can rename the concept _lastName_ into _familyName_ without impacting a client of the method _.formatFullName\(\)_ 
   * we can refactor inside of this class \(change the private parts\) without worrying of effects in other parts
 * we are writing business logic \(logic requested by business, as a feature\) and we are sticking to business names
-  * sure, we only have _Person_ for now, but we could easily extract the method ._formatFullName\(\)_  into a _FullName_ class \(and we would be sticking to class names as business concepts\)
+  * sure, we only have _Person_ for now, but we could easily extract the method ._formatFullName\(\)_  into a _FullName_ class \(and we would still be sticking to business concepts as class names\)
 
 {% code-tabs %}
 {% code-tabs-item title="example 2" %}
@@ -99,7 +99,7 @@ class Person {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-* the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it 
+* the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it. We are following _the Expert Principle_.
   * only in the example \#1 
   * example \#2, with the class _FullName,_ is good example for a later section, "\[Moving state around\]\(../moving-state-around.md\)"
 

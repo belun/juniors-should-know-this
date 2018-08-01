@@ -2,7 +2,7 @@
 
 **Given** _rich classes_, that are "owners" of data, 
 
-and _trying to not break encapsulation_ \(by avoiding expose internal state, so that some other classes can do logic on that data\)
+and _trying to not break encapsulation_ \(by avoiding to expose internal state, so that some other classes can do logic on that data\)
 
 #### What happens when I need to transfer data to another class?
 

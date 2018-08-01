@@ -22,7 +22,7 @@ Exposing internal state, so that some other classes can do logic on that data me
 
 #### Is there a rule / guideline / principle for this?
 
-Yes, it is called _the expert principle._
+Yes, it is called _the expert principle :_ keep the data and logic that uses that data, in the same class.
 
 #### What do I gain if I do this?
 
@@ -31,5 +31,5 @@ The abstractions that respect encapsulation can be seen as a black-boxes now. Th
 #### Here are some other good explanations
 
 1. [Definitions of encapsulation](https://searchnetworking.techtarget.com/definition/encapsulation)
-2. [OOP Concept for Beginners: What is Encapsulation](https://stackify.com/oop-concept-for-beginners-what-is-encapsulation/)
+2. [OOP Concept for Beginners: What is Encapsulation?](https://stackify.com/oop-concept-for-beginners-what-is-encapsulation/)
 
