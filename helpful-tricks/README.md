@@ -1,2 +1,4 @@
 # Helpful tricks
 
+Helpful concepts
+

@@ -1,6 +1,8 @@
 # Goal
 
-This mini-series is presenting concepts that make working with source code easier.
+This mini-series is presenting concepts that developers can use on their code to make working it  easier \(to write maintainable code\).
 
-[Juniors should know this - @GitBook](https://devtraining.gitbook.io/juniors-should-know-this)
+#### [Juniors should know this - @GitBook](https://devtraining.gitbook.io/juniors-should-know-this)
+
+
 

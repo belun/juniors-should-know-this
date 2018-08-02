@@ -2,7 +2,7 @@
 
 As a developer, you write text. Sure, the text represents computer instructions and the computer will take this code and do things according to it. 
 
-Once the code is in good format and it can be understood and run by the computer \(will adere to a specific programming language syntax\), it is also supposed to do what the stakeholder paid for \(implement the desired business logic\).
+Then, once the code is in good format and it can be understood and run by the computer \(if it adheres to a specific programming language syntax\), it is also supposed to do what the stakeholder paid for \(implement the desired business logic\).
 
 #### But what about the developer? 
 
