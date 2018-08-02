@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Goal](README.md)
-* [Goal](goal-2.md)
+* [Goal](goal.md)
 * [The core](the-core/README.md)
   * [Abstraction\(s\)](the-core/abstraction.md)
   * [Encapsulation](the-core/encapsulation.md)
