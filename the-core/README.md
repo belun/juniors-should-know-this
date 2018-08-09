@@ -1,4 +1,4 @@
 # The core
 
-The basics, abstractions and encapsulation.
+The basics : abstractions and encapsulation.
 
