@@ -1,3 +1,7 @@
+---
+description: some basics
+---
+
 # Clean code
 
 ## What is the purpose of clean code?
