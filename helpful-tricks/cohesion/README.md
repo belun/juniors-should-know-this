@@ -119,7 +119,7 @@ Well, all methods can just receive data as parameters and work with those, not m
 
 ### Let's look at a more common scenario
 
-Suppose the first 3 fields are used in methods 1 through 3, while the fields 3 and 4 are used in the last 2 methods. The field 3 is common just to show that this should not represent a problem.
+Suppose the first 3 fields are used in methods 1 through 3, while the fields 3 and 4 are used in the last 2 methods. The field 3 is common just to make things more difficult later.
 
 {% code-tabs %}
 {% code-tabs-item title="medium cohesion" %}
@@ -195,7 +195,9 @@ class CommonClassPart2 {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Now we have, again, classes with high cohesion.
+Now we have, again, classes with high cohesion. 
+
+Notice how _field3_ is part of the state of both classes \(as it is needed for the logic in both\)
 
 ### What is it useful for?
 

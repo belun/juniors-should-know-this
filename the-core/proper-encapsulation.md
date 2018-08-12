@@ -45,7 +45,7 @@ A _rich class_ is class that does things \(contains logic\), not just holds data
 The term _rich class_ is also a bit misleading, as we want this class to be properly encapsulated.The best name would be a domain class that is properly encapsulated \(but that looks to long\).
 
 {% code-tabs %}
-{% code-tabs-item title="example 1" %}
+{% code-tabs-item title="encapsulated class" %}
 ```java
 class Person {
     private String firstName;
@@ -74,11 +74,16 @@ As you have probably guessed it, the bad things from section with the counter ex
   * we can rename the concept _lastName_ into _familyName_ without impacting a client of the method _.formatFullName\(\)_ 
   * we can refactor inside of this class \(change the private parts\) without worrying of effects in other parts
 * we are writing business logic \(logic requested by business, as a feature\) and we are sticking to business names
-  * sure, we only have _Person_ for now, but we could easily extract the method ._formatFullName\(\)_  into a _FullName_ class \(and we would still be sticking to business concepts as class names\)
+  * 
+* the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it. We are following _the Expert Principle_.
+  * only in the example \#1 
+  * example \#2, with the class _FullName,_ is good example for a later section, "\[Moving state around\]\(../moving-state-around.md\)"
+
+Sure, we only have one concept for now, the _Person_, but we could easily extract the method ._formatFullName\(\)_  into a _FullName_ class \(and we would still be sticking to business concepts as class names\)
 
 {% code-tabs %}
-{% code-tabs-item title="example 2" %}
-```text
+{% code-tabs-item title="encapsulated class with a collaborator" %}
+```java
 class Person {
     private String firstName;
     private String lastName;
@@ -88,7 +93,7 @@ class Person {
         return FullName.format(firstName, lastName, gender);
     }
     
-    static class FullName {     
+    static class FullName {            
         public static String format(String firstName, String lastName, String gender) {
             String title = "male".equals(gender) ? "Mr." : "Mrs.";
             return title + " " + firstName + " " + lastName;
@@ -99,11 +104,5 @@ class Person {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-* the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it. We are following _the Expert Principle_.
-  * only in the example \#1 
-  * example \#2, with the class _FullName,_ is good example for a later section, "\[Moving state around\]\(../moving-state-around.md\)"
-
-
-
-
+The collaborator, _FullName, does not need a state in this example,_  so it only exposes logic \(the method ._format\(\)_ \) that receives the data it needs at runtime. It could have easily had _firstName_, _lastName_ and _gender_ as state, if it needed that data longer than the scope of _Person.formatFullName\(\)_
 

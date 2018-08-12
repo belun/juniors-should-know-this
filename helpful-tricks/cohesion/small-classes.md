@@ -24,7 +24,7 @@ Make use the life cycle \(or better said, the stage of a life cycle\) of an conc
 
 In the previous example, an instance of the class _Person_ can come become an instance of the class _VerifiedPerson_, once the verification has been done.
 
-```text
+```java
 class Person {
     private String firstName;
     private String lastName;
