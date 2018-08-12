@@ -53,5 +53,14 @@ Also, the _VerifiedPerson_ does not have any defined logic right now \(for simpl
 somePerson instanceof Verified
 ```
 
+#### Are there any other kind of extracts?
 
+In the example above, where _Person_ changes to _VerifiedPerson_ \(as an alternative for having all logic for _Person_ and _VerifiedPerson_ in one class_\)_ , we have split the class based on its stages during its life-cycle in the application.
+
+Other ways to split classes are :
+
+* [through inheritance](https://devtraining.gitbook.io/juniors-should-know-this/concept-modeling/inheritance) 
+* [through composition](https://devtraining.gitbook.io/juniors-should-know-this/concept-modeling/composition)
+
+Both ways are explored later. 
 
