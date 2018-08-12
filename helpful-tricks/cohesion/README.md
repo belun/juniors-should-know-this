@@ -203,6 +203,3 @@ Notice how _field3_ is part of the state of both classes \(as it is needed for t
 
 * cohesion can be used as a hint whether our class is doing more than one responsibility or not.  Single responsibility and high cohesion give a good meaning to a class. A meaningful class is easy to work with.
 * low cohesion _can be used as a code smell_ that tells us that we should split our class.
-
-### 
-
