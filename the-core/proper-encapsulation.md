@@ -75,7 +75,7 @@ As you have probably guessed it, the bad things from section with the counter ex
   * we can refactor inside of this class \(change the private parts\) without worrying of effects in other parts
 * we are writing business logic \(logic requested by business, as a feature\) and we are sticking to business names
   * 
-* the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it. We are following _the Expert Principle,_ part of the GRASP principles.
+* the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it. We are following [_the Expert Principle,_ part of the GRASP principles.](https://en.wikipedia.org/wiki/GRASP_%28object-oriented_design%29#Information_expert)
   * only in the example \#1 
   * example \#2, with the class _FullName,_ is good example for a later section, "\[Moving state around\]\(../moving-state-around.md\)"
 
