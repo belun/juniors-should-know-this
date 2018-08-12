@@ -47,7 +47,7 @@ class VerifiedPerson {
 
 Notice how the _VerifiedPerson_ has a totally different state from a _Person._ This is to show that a concept's state can change through the application, as the logic needed from that class also changes. 
 
-Also, the _VerifiedPerson_ does not have any defined logic right \(for simplicity reasons\). It could be used only for :
+Also, the _VerifiedPerson_ does not have any defined logic right now \(for simplicity reasons\). It could be used only for :
 
 ```text
 somePerson instanceof Verified
