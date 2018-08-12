@@ -104,5 +104,5 @@ class Person {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-The collaborator, _FullName, does not need a state in this example,_  so it only exposes logic \(the method ._format\(\)_ \) that receives the data it needs at runtime. It could have easily had _firstName_, _lastName_ and _gender_ as state, if it needed that data longer than the scope of _Person.formatFullName\(\)_
+The collaborator, _FullName_, does not need a state in this example, __ so it only exposes logic \(the method ._format\(\)_ \) that receives the data it needs at runtime. It could have easily had _firstName_, _lastName_ and _gender_ as state, if it needed that data longer than the scope of _Person.formatFullName\(\)_
 
