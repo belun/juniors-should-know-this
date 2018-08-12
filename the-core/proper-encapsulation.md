@@ -77,7 +77,7 @@ As you have probably guessed it, the bad things from section with the counter ex
   * 
 * the logic that works with the internal state of the _Person_ is in the same class and this make it easier to keep track of it. We are following [_the Expert Principle,_ part of the GRASP principles.](https://en.wikipedia.org/wiki/GRASP_%28object-oriented_design%29#Information_expert)
   * only in the example \#1 
-  * example \#2, with the class _FullName,_ is good example for a later section, "\[Moving state around\]\(../moving-state-around.md\)"
+  * example \#2, with the class _FullName,_ is good example for a later section, ["Moving state around"](https://devtraining.gitbook.io/juniors-should-know-this/helpful-tricks/moving-state-around)
 
 Sure, we only have one concept for now, the _Person_, but we could easily extract the method ._formatFullName\(\)_  into a _FullName_ class \(and we would still be sticking to business concepts as class names\)
 
