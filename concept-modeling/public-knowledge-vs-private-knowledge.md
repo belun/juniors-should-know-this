@@ -1,7 +1,3 @@
----
-description: some information hiding
----
-
 # Public knowledge vs private knowledge
 
 ### Can a _Person_ .open a _Door_?

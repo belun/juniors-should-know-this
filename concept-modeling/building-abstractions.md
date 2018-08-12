@@ -1,7 +1,3 @@
----
-description: modeling concepts
----
-
 # Building abstractions
 
 The ideas behind of an object-oriented language is to empower the developer to :

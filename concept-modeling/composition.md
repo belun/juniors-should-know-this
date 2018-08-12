@@ -1,7 +1,3 @@
----
-description: expanding downwards
----
-
 # Composition
 
 ### How to use composition?
@@ -112,4 +108,8 @@ It is nice to have classes like _NormalDoor_ and _SlidingDoor,_ that incorporate
 {% hint style="info" %}
 Inheritance is nice, but favor composition.
 {% endhint %}
+
+### Bonus question
+
+What example from section _"The core"_ promotes composition?
 

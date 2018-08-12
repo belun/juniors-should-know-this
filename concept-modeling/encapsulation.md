@@ -1,7 +1,3 @@
----
-description: wrapping state
----
-
 # Encapsulation
 
 ### Tell the door to open itself?

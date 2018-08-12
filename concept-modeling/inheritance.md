@@ -1,7 +1,3 @@
----
-description: expanding sideways
----
-
 # Inheritance
 
 ### Do you think that the _Door_ is getting too big, by now?

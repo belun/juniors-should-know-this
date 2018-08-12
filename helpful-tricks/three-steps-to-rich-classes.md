@@ -1,7 +1,3 @@
----
-description: The recipe
----
-
 # Three steps to rich classes
 
 At this point, a recipe for writing proper classes can be defined :

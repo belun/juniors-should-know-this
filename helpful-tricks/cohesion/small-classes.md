@@ -1,7 +1,3 @@
----
-description: some tricks
----
-
 # Small classes
 
 #### Since logic is supposed to stay with the data \(and respect encapsulation\), won't some classes become huge?

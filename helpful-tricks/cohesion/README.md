@@ -8,7 +8,7 @@ description: measuring performance
 
 Cohesion is a metric \(something that can be measured\) that shows how well put together a class is. 
 
-### How do you measured it?
+### How do you measure it?
 
 Suppose we have a class with 4 fields and 5 methods.
 
@@ -41,7 +41,7 @@ class SomeClass {
 }
 ```
 
-_If all methods use all fields, than this class has highest cohesion_. This is ideal.
+_If all methods use all fields, than this class has highest cohesion possible_. This is ideal.
 
 {% code-tabs %}
 {% code-tabs-item title="high cohesion" %}
@@ -76,7 +76,7 @@ class IdealClass {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-The opposite of this \(_low cohesion_\) would be when each method uses only 1 field \(and not the same field\), or no field.
+The opposite of this \(_low cohesion_\) would be when each method uses only 1 field \(and not the same field\), or no field at all.
 
 {% code-tabs %}
 {% code-tabs-item title="low cohesion" %}
@@ -203,3 +203,6 @@ Notice how _field3_ is part of the state of both classes \(as it is needed for t
 
 * cohesion can be used as a hint whether our class is doing more than one responsibility or not.  Single responsibility and high cohesion give a good meaning to a class. A meaningful class is easy to work with.
 * low cohesion _can be used as a code smell_ that tells us that we should split our class.
+
+### 
+
