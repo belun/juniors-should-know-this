@@ -12,6 +12,8 @@ Cohesion is a metric \(something that can be measured\) that shows how well put 
 
 Suppose we have a class with 4 fields and 5 methods.
 
+{% code-tabs %}
+{% code-tabs-item title="sample class" %}
 ```java
 class SomeClass {
     private String field1;
@@ -40,6 +42,8 @@ class SomeClass {
     }
 }
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 _If all methods use all fields, than this class has highest cohesion possible_. This is ideal.
 
