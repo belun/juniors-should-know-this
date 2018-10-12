@@ -28,3 +28,7 @@
   * [Do not repeat yourself](clean-code/do-not-repeat-yourself.md)
   * [Keep it simple](clean-code/keep-it-simple.md)
 
+## Contact
+
+* [Contact](contact/contact.md)
+
