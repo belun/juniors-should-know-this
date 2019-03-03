@@ -88,15 +88,15 @@ class Door {
 
 ### When to use composition?
 
-Once the implementation of the _Door_ becomes to big, the cohesion starts to drop, consider composition.
+Once the implementation of a class \(e.g. the _Door\)_ becomes to big and the cohesion of it starts to drop, consider extracting big parts of   it into another class. Consider giving, to a set of properties and methods \(that are cohesive in their functionality\), their own class and "marking" them as an abstraction on its own. Consider composition.
 
 #### What about inheritance?
 
-Inheritance could be used in the current examples because the only **feature** that the abstraction that we were building for the concept of a door was to **"open"**. The only state was _openingMechanism_ and the only public method, _.open\(...\)_, was using that. Thus, _maximum cohesion_.
+Inheritance could be used in the current examples because the only **feature** that the abstraction that we were building for the concept of a door was to **"open"**. The only state was _openingMechanism_ and the only public method, _.open\(...\)_, was using that. _Maximum cohesion_  could be achieved with that, because the samples are small.
 
 ### Multiples features can break inheritance
 
-It is nice to have classes like _NormalDoor_ and _SlidingDoor,_ that incorporate the different versions of _OpeningMechanism_ into them, but what about when we need a _LockingMechanism_ \(with values like _MetalKey_, _Card_, _Biometrics_\) as another feature for that _Door_ :
+It is nice to have classes like _NormalDoor_ and _SlidingDoor,_ that incorporate the different versions of _OpeningMechanism_ into them, but what about when we need a _LockingMechanism_ \(with values like _MetalKey_, _Card_, _Biometrics_\) as another feature for that _Door._ Then we would have classes like:
 
 * _MetalKeyNormalDoor_ 
 * _MetalKeySlidingDoor_
@@ -104,6 +104,8 @@ It is nice to have classes like _NormalDoor_ and _SlidingDoor,_ that incorporate
 * _CardSlidingDoor_
 * _BiometricsNormalDoor_ 
 * _BiometricsSlidingDoor_
+
+Hierarchy \(of classes\) cannot support this kind of diversity, not without extra effort \(avoidable effort\)
 
 {% hint style="info" %}
 Inheritance is nice, but favor composition.
