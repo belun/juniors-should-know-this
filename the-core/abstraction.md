@@ -31,6 +31,6 @@ _How do I setup good abstractions?_
 Make use of _encapsulation_. Together with _abstractions_ \(and _inheritance_\), _encapsulation_ is one of the core principles of object-oriented programming.
 
 {% hint style="info" %}
-If you program in an object-oriented language \(or a language that support object-oriented programming\), then you should make use of its core principles \(and use them properly\).
+If you program in an object-oriented language \(or a language that supports object-oriented programming\), then you should make use of its core principles \(and use them properly\).
 {% endhint %}
 
